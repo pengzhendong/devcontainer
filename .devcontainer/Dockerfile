@@ -7,7 +7,7 @@ ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
 RUN apt update \
-  && apt install -y autojump curl ffmpeg fzf git sox sudo tmux wget zsh
+  && apt install -y autojump curl ffmpeg fzf git sox sudo tmux tmux-mem-cpu-load wget zsh
 RUN groupadd --gid $USER_GID $USERNAME \
   && useradd --uid $USER_UID --gid $USER_GID -m $USERNAME \
   && usermod -aG sudo $USERNAME \
