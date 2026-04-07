@@ -5,7 +5,7 @@
   "name": "Dev",
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
-  "workspaceFolder": "/home/vscode/workspace",
+  "workspaceFolder": "/home/pengzhendong.pzd/workspace",
   "customizations": {
     "vscode": {
       "settings": {

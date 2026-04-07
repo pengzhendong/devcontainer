@@ -6,7 +6,7 @@ services:
     platform: linux/amd64
     container_name: dev
     volumes:
-      - ..:/home/vscode/workspace
+      - ..:/home/pengzhendong.pzd/workspace
     ports:
       - "8080:8080"
     command: sleep infinity

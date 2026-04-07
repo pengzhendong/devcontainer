@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown vscode:vscode /home/vscode/workspace
+sudo chown pengzhendong.pzd:root /home/pengzhendong.pzd/workspace
