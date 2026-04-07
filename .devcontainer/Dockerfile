@@ -5,7 +5,9 @@ LABEL maintainer="Zhendong Peng <zhendong.peng@qq.com>"
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
   && apt-get install -y --no-install-recommends \
-  autojump ca-certificates curl ffmpeg fzf git locales rsync sox sudo tmux vim wget zsh \
+  autojump ca-certificates coreutils curl ffmpeg fzf \
+  gawk git locales net-tools rsync sox sudo tmux \
+  tmux-mem-cpu-load vim wget zip zsh \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/* \
   && locale-gen en_US.UTF-8
